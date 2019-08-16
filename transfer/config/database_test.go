@@ -17,5 +17,5 @@ func Test_GetURI_Should_Be_Username_karnwat_Password_1234_Host_127_0_0_1_Port_33
 
 	actualResult := config.GetURI()
 
-	assert.Equal(t,expected,actual)
+	assert.Equal(t,expectedResult,actualResult)
 }
