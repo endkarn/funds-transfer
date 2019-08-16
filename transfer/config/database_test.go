@@ -1,8 +1,8 @@
 package config
 
 import (
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func Test_GetURI_Should_Be_Username_karnwat_Password_1234_Host_127_0_0_1_Port_3306_Database_funds_db(t *testing.T) {
